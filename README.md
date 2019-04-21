@@ -3,7 +3,7 @@ Welcome to the client-facing repo for our Goal tracking app.
 Describe and set your goals, create a plan to achieve them and track your
 progress as make steps toward achieving them!
 
-## HOW TO Use (CLIENT)
+## How to Use 
 + Sign in then sign up
 + Create a goal -- CRUD Goals > Create (fill out the fields)
 + See the index -- CRUD GOALS > Index
@@ -42,9 +42,6 @@ to determine my progress.
 + AJAX
 + Bootstrap and CSS
 
-# API routes
-+ To /goals and goals/:id using Authorization
-
 ## Process
 + Set up back end on express
 + Set up ALL front end elements in html
@@ -52,3 +49,19 @@ to determine my progress.
 + Set up CRUD functions
 + Add functionality
 + Revise
+
+# Routes
+| Verb    | URI Pattern            | Controller#Action             |
+|---------|------------------------|-------------------------------|
+| POST    | `/sign-up`             | `users.post/sign-up`          |
+| POST    | `/sign-in`             | `users.post/sign-in`          |
+| PATCH   | `/change-password`     | `users.patch/change-password` |
+| DELETE  | `/sign-out`            | `users.delete/sign-out`       |
+| POST    | `/goals`               | `create`                      |
+| GET     | `/goals`               | `goals#index`                 |
+| GET     | `/goals/:id`           | `goals#show`                  |
+| PATCH   | `/goals/:id`           | `goals#update`                |
+| DELETE  | `/goals/:id`           | `goals#destroy`               |
+
+# Preview
+![Preview](https://i.imgur.com/VLAL055.png)
