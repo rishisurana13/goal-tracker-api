@@ -14,6 +14,7 @@ in form field in the update form.
 
 ## LINKS
 + CLIENT: https://rishisurana13.github.io/goal-tracker-client/
++ CLIENT REPO: https://github.com/rishisurana13/goal-tracker-client
 + BACK: https://damp-fjord-80252.herokuapp.com
 + BACK END REPO: https://rishisurana13.github.io/goal-tracker-api/
 + WIREFRAME: https://imgur.com/a/VzvP5aq
